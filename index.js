@@ -16,7 +16,10 @@ function updateClocks(){
         }
     }
 }
+window.addEventListener("DOMContentsLoaded", ()=>{
 alert("oi")
+})
+
 function displayTimezones(){
     const timezoneElements = document.getElementById('timezone');
     if (timezoneElements) {
