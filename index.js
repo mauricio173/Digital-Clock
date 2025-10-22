@@ -24,8 +24,8 @@ function displayTimezones(){
     const timezoneElements = document.getElementById('timezone');
     if (timezoneElements) {
         try {
-            const timeZones = Intl.DateTimeFormat().resolvedOptions().timeZones;
-            timezoneElements.textContent = timeZones.replace(/_/g, ' ');
+            const timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+            timezoneElements.textContent = timeZone.replace(/_/g, ' ');
         } catch (error) {
             console.error("Could not determine timezone:", error);
             timezoneElements.textContent = "Timezone not available";
