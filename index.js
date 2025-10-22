@@ -17,7 +17,7 @@ function updateClocks(){
     }
 }
 window.addEventListener("DOMContentsLoaded", ()=>{
-// alert("oi");
+
 })
 
 function displayTimezones(){
