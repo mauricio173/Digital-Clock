@@ -1,4 +1,4 @@
-function updateClocks(): void {
+function updateClocks(){
     const clockElements = document.getElementById('clock');
     
     if (clockElements) {
@@ -17,7 +17,7 @@ function updateClocks(): void {
     }
 }
 alert("oi")
-function displayTimezones(): void {
+function displayTimezones(){
     const timezoneElements = document.getElementById('timezone');
     if (timezoneElements) {
         try {
